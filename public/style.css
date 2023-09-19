@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center; 
+}
+
+@keyframes hcolor {
+    0% {color: black;}
+    50% {color: #f70dc4;}
+    75% {color: #00ffff;}
+    100% {color: #056161;}
+}
+h3 {
+    color: #fff;
+    animation: hcolor 2s linear infinite;
+}
